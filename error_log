@@ -1,0 +1,66 @@
+[16-Jun-2023 19:45:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ophirin1/public_html/header.php:1) in /home2/ophirin1/public_html/apply.php on line 40
+[16-Jun-2023 19:45:21 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/ophirin1/public_html/apply.php on line 47
+[01-Jul-2023 07:23:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ophirin1/public_html/header.php:1) in /home2/ophirin1/public_html/apply.php on line 40
+[01-Jul-2023 07:23:13 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/ophirin1/public_html/apply.php on line 47
+[03-Jul-2023 17:19:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ophirin1/public_html/header.php:1) in /home2/ophirin1/public_html/apply.php on line 40
+[03-Jul-2023 17:19:38 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/ophirin1/public_html/apply.php on line 47
+[04-Jul-2023 14:54:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ophirin1/public_html/header.php:1) in /home2/ophirin1/public_html/apply.php on line 40
+[04-Jul-2023 14:54:09 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/ophirin1/public_html/apply.php on line 47
+[04-Jul-2023 16:27:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ophirin1/public_html/header.php:1) in /home2/ophirin1/public_html/apply.php on line 21
+[04-Jul-2023 16:27:49 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/ophirin1/public_html/apply.php on line 47
+[08-Jul-2023 22:20:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ophirin1/public_html/header.php:1) in /home2/ophirin1/public_html/apply.php on line 40
+[08-Jul-2023 22:20:43 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/ophirin1/public_html/apply.php on line 47
+[15-Jul-2023 16:32:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ophirin1/public_html/header.php:1) in /home2/ophirin1/public_html/apply.php on line 40
+[15-Jul-2023 16:32:13 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/ophirin1/public_html/apply.php on line 47
+[15-Jul-2023 18:10:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ophirin1/public_html/header.php:1) in /home2/ophirin1/public_html/apply.php on line 40
+[15-Jul-2023 18:10:00 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/ophirin1/public_html/apply.php on line 47
+[16-Jul-2023 02:52:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ophirin1/public_html/header.php:1) in /home2/ophirin1/public_html/apply.php on line 40
+[16-Jul-2023 02:52:34 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/ophirin1/public_html/apply.php on line 47
+[20-Jul-2023 07:40:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ophirin1/public_html/header.php:1) in /home2/ophirin1/public_html/apply.php on line 40
+[20-Jul-2023 07:40:41 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/ophirin1/public_html/apply.php on line 47
+[20-Jul-2023 07:40:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ophirin1/public_html/header.php:1) in /home2/ophirin1/public_html/apply.php on line 40
+[20-Jul-2023 07:40:43 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/ophirin1/public_html/apply.php on line 47
+[20-Jul-2023 11:56:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home2/ophirin1/public_html/connect_to_mysqli.php:11
+Stack trace:
+#0 /home2/ophirin1/public_html/connect_to_mysqli.php(11): mysqli_connect('localhost', 'ophirin1_ophir', 'ophirin1_ophir', 'ophirin1_ophir')
+#1 /home2/ophirin1/public_html/header.php(35): include('/home2/ophirin1...')
+#2 /home2/ophirin1/public_html/index.php(1): include('/home2/ophirin1...')
+#3 {main}
+  thrown in /home2/ophirin1/public_html/connect_to_mysqli.php on line 11
+[21-Jul-2023 07:07:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home2/ophirin1/public_html/connect_to_mysqli.php:11
+Stack trace:
+#0 /home2/ophirin1/public_html/connect_to_mysqli.php(11): mysqli_connect('localhost', 'ophirin1_ophir', 'ophirin1_ophir', 'ophirin1_ophir')
+#1 /home2/ophirin1/public_html/header.php(35): include('/home2/ophirin1...')
+#2 /home2/ophirin1/public_html/index.php(1): include('/home2/ophirin1...')
+#3 {main}
+  thrown in /home2/ophirin1/public_html/connect_to_mysqli.php on line 11
+[03-Aug-2023 08:21:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ophirin1/public_html/header.php:1) in /home2/ophirin1/public_html/apply.php on line 40
+[03-Aug-2023 08:21:29 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/ophirin1/public_html/apply.php on line 47
+[03-Aug-2023 08:22:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ophirin1/public_html/header.php:1) in /home2/ophirin1/public_html/apply.php on line 21
+[03-Aug-2023 08:22:26 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/ophirin1/public_html/apply.php on line 47
+[03-Aug-2023 08:25:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ophirin1/public_html/header.php:1) in /home2/ophirin1/public_html/apply.php on line 21
+[03-Aug-2023 08:25:55 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/ophirin1/public_html/apply.php on line 47
+[04-Aug-2023 01:32:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ophirin1/public_html/header.php:1) in /home2/ophirin1/public_html/apply.php on line 40
+[04-Aug-2023 01:32:38 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/ophirin1/public_html/apply.php on line 47
+[16-Aug-2023 19:55:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ophirin1/public_html/header.php:1) in /home2/ophirin1/public_html/apply.php on line 40
+[16-Aug-2023 19:55:44 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/ophirin1/public_html/apply.php on line 47
+[17-Aug-2023 19:32:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ophirin1/public_html/header.php:1) in /home2/ophirin1/public_html/apply.php on line 40
+[17-Aug-2023 19:32:03 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/ophirin1/public_html/apply.php on line 47
+[02-Sep-2023 23:52:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ophirin1/public_html/header.php:1) in /home2/ophirin1/public_html/apply.php on line 40
+[02-Sep-2023 23:52:06 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/ophirin1/public_html/apply.php on line 47
+[03-Sep-2023 09:53:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/ophirin1/public_html/header.php:1) in /home2/ophirin1/public_html/apply.php on line 21
+[03-Sep-2023 09:53:26 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home2/ophirin1/public_html/apply.php on line 47
+[04-Sep-2023 21:04:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ophirin1/public_html/header.php:1) in /home/ophirin1/public_html/apply.php on line 40
+[04-Sep-2023 21:04:29 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/ophirin1/public_html/apply.php on line 47
+[07-Sep-2023 08:01:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ophirin1/public_html/header.php:1) in /home/ophirin1/public_html/apply.php on line 40
+[07-Sep-2023 08:01:32 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/ophirin1/public_html/apply.php on line 47
+[13-Sep-2023 08:52:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ophirin1/public_html/header.php:1) in /home/ophirin1/public_html/apply.php on line 40
+[13-Sep-2023 08:52:23 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/ophirin1/public_html/apply.php on line 47
+[01-Oct-2023 02:58:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ophirin1/public_html/header.php:1) in /home/ophirin1/public_html/apply.php on line 40
+[01-Oct-2023 02:58:48 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/ophirin1/public_html/apply.php on line 47
+[04-Oct-2023 10:52:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ophirin1/public_html/header.php:1) in /home/ophirin1/public_html/apply.php on line 40
+[04-Oct-2023 10:52:42 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/ophirin1/public_html/apply.php on line 47
+[04-Oct-2023 10:54:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ophirin1/public_html/header.php:1) in /home/ophirin1/public_html/apply.php on line 40
+[04-Oct-2023 10:54:53 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/ophirin1/public_html/apply.php on line 47
+[13-Oct-2023 21:13:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ophirin1/public_html/header.php:1) in /home/ophirin1/public_html/apply.php on line 40
+[13-Oct-2023 21:13:07 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/ophirin1/public_html/apply.php on line 47
